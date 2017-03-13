@@ -21,7 +21,7 @@ nav{
 /*Introduction style starts*/
 .intro{
 	background: url(https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050);
-	height: 600px;
+	height: 650px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -45,6 +45,33 @@ nav{
 	font-size: 20px;
 }
 /*Introduction style ends*/
+
+/*About style starts*/
+	.about-container{
+		text-align: center;
+		padding-top:20px;
+		width: 100vw;
+		overflow-x:hidden;
+	}
+	.about-heading{
+		font-size: 40px;
+		text-transform: uppercase;
+		font-weight: bold;
+		 
+	}
+	.about-container hr{
+		border-color: #FFA000;
+	}
+	.about-container p{
+		font-size: 18px;
+		color: #616161;
+	}
+	.about-container img{
+		padding-bottom: 30px;
+		width: 100%;
+	}
+
+/*About style ends*/
 
 /*Media query starts*/
 @media screen and (max-width: 420px){
