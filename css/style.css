@@ -8,6 +8,7 @@
 	width: 100vw;
 	top: 0;
 	background: #FFF;
+	z-index: 1;
 }
 .logo-text{
 	font-size: 20px;
@@ -20,13 +21,44 @@ nav{
 /*Introduction style starts*/
 .intro{
 	background: url(https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050);
-	height: 750px;
+	height: 600px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin-top: 70px;
     width: 100vw;
+    position: relative;
+}
+
+.intro-text-container{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	text-align: center;
+	color: #FFF;
+}
+.heading-text{
+	font-size: 90px;
+}
+
+.intro-description{
+	font-size: 20px;
 }
 /*Introduction style ends*/
+
+/*Media query starts*/
+@media screen and (max-width: 420px){
+	.logo-text{
+		font-size: 40px;
+	}
+	.intro{
+		margin-top: 200px;
+	}
+	.heading-text{
+		font-size: 50px;
+	}
+}
+
+/*Media query ends*/
 .dummy{
 	height: 1000px;
